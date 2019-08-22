@@ -1,0 +1,16 @@
+Package: ggsonde
+Type: Package
+Title: Plot Sonde Data in ggplot2
+Version: 0.0.0.9000
+Authors@R: as.person(c(
+    "Andrew Singleton <andrewts@met.no> [aut, cre]"
+  ))
+Description: Stat and geom for plotting sonde data in ggplot2. The background axes 
+    are drawn and the sonde ascents, dry and moist adiabats are optionally added. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    RadioSonde
+Depends: 
+    ggplot2
